@@ -189,6 +189,7 @@ public class FinestWebView {
 
         public Builder(@NonNull Activity activity) {
             this.context = activity;
+
             Base.initialize(activity);
         }
 
